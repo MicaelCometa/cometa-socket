@@ -1,6 +1,6 @@
 #container {
   text-align: center;
-
+  padding: 10px;
   position: absolute;
   left: 0;
   right: 0;
@@ -24,4 +24,34 @@
 
 #container a {
   text-decoration: none;
+}
+
+
+.blue-team{
+  display: inline-table;
+  background: #5d5dff;
+  height: 70px;
+}
+
+.red-team{
+  display: inline-table;
+  background: #ff5858;
+  height: 70px;
+}
+
+ion-col.red{
+  text-align: center;
+  font-size: 50px;
+  color: #ff5858;
+}
+ion-col.blue{
+  text-align: center;
+  font-size: 50px;
+  color: #5d5dff;
+}
+
+
+ion-button{
+  height: 55px;
+  margin-top: 35px;
 }
