@@ -1,0 +1,7 @@
+{
+  "name": "cometa-socket",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
