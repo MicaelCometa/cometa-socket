@@ -5,6 +5,19 @@
 
   <div id="container" *ngIf='team'>
     
+
+    <div class='logo-colors'>
+      <div class='red' [ngStyle]="{'width': redWidth}">
+
+      </div>
+      <div class='blue' [ngStyle]="{'width': blueWidth}">
+
+      </div>
+      <img src="assets/img/logo-colors-empty.png">
+    </div>
+    
+    
+
     <ion-grid>
       <ion-row>
         <ion-col class='red'>
@@ -22,7 +35,7 @@
     <div class="blue-team" [ngStyle]="{'width': blueWidth}">
       
     </div>
-    <ion-button [(color)]='btnColor'  >Dar un punto</ion-button>
+    <ion-button color='{{btnColor}}' (click)='sendPoint()'  >Dar un punto</ion-button>
   </div>
 
 

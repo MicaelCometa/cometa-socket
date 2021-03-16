@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cometa Socket</string>
+    <string name="title_activity_main">Cometa Socket</string>
+    <string name="package_name">cometa.socket</string>
+    <string name="custom_url_scheme">cometa.socket</string>
+</resources>

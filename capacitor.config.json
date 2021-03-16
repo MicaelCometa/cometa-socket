@@ -1,6 +1,6 @@
 {
   "appId": "cometa.socket",
-  "appName": "cometa-socket",
+  "appName": "Cometa Socket",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

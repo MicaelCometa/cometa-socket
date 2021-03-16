@@ -26,17 +26,51 @@
   text-decoration: none;
 }
 
+img{
+  position: absolute;
+  left: calc(50% - 76px);
+  height: 152px;
+  width: 152px;
+  margin-top: -1px;
+}
+
+.logo-colors div{
+  height: 150px;
+  transition: width 2s;
+  
+}
+.logo-colors{
+  width: 152px;
+    margin-left: calc(50% - 76px);
+  .red{
+    background: #ff5858;
+    display: inline-table;
+  }
+  .blue{
+    background: #5d5dff;
+    display: inline-table;
+  }
+}
+
 
 .blue-team{
+  transition: width 2s;
   display: inline-table;
   background: #5d5dff;
   height: 70px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .red-team{
+  transition: width 2s;
   display: inline-table;
   background: #ff5858;
   height: 70px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 ion-col.red{
@@ -48,6 +82,7 @@ ion-col.blue{
   text-align: center;
   font-size: 50px;
   color: #5d5dff;
+  
 }
 
 
@@ -55,3 +90,4 @@ ion-button{
   height: 55px;
   margin-top: 35px;
 }
+
